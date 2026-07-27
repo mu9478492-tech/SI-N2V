@@ -1,0 +1,28 @@
+# ============================================================
+# SIN2V Configuration (Supplementary Software)
+# ============================================================
+
+# Data Paths (Leave empty to use default ./data/train/raw)
+train_raw_folder:
+test_raw_folder:
+save_path:
+
+# Data Processing
+patch_size:
+stride:
+
+# Training Settings
+batch_size:
+accum_iter:
+num_workers:
+pin_memory:
+epochs:
+lr:
+weight_decay:
+
+# Model Configuration
+model:
+  type: 'PolyMambaUNet'
+  in_ch: 1
+  out_ch: 1
+  width: 64
